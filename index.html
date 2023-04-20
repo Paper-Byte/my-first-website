@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://assets.ubuntu.com/v1/vanilla-framework-version-3.13.0.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Noah Hughes' Portfolio</title>
   </head>
   <body>
-    <div class="bannerContainer">
-      <div id="banner">
+    <div id="banner">
+      <div class="about-me-container">
         <img class="mainpic" src="./images/gif/mainPic.JPG" alt="Noah" />
         <div class="aboutMe">
           <h1>Noah Hughes</h1>
@@ -18,18 +22,34 @@
           </ul>
         </div>
       </div>
+
+      <div class="slider-container">
+        <div class="slider">
+          <swiper-container>
+            <swiper-slide
+              ><img
+                src="https://i.pinimg.com/originals/ba/92/7f/ba927ff34cd961ce2c184d47e8ead9f6.jpg"
+              />
+              sdkjsdksndksndksd</swiper-slide
+            >
+            <swiper-slide>Slide 2</swiper-slide>
+            <swiper-slide>Slide 3</swiper-slide>
+            <swiper-slide>Slide ...</swiper-slide>
+          </swiper-container>
+        </div>
+      </div>
     </div>
+
     <div class="mainBody">
-      p>sajdasjdnsajkdnaskdjkasndksdksjdakjdsakj</p>
+      <div class="mainBodyContent">
+        <button id="clickMePlz" class="p-button">Default button</button>
+        <img
+          id="fact"
+          src="https://i.pinimg.com/originals/ba/92/7f/ba927ff34cd961ce2c184d47e8ead9f6.jpg"
+        />
+      </div>
     </div>
-    <!-- <div class='slider'>
-            <swiper-container>
-                <swiper-slide>Slide 1</swiper-slide>
-                <swiper-slide>Slide 2</swiper-slide>
-                <swiper-slide>Slide 3</swiper-slide>
-                <swiper-slide>Slide ...</swiper-slide>
-              </swiper-container>
-        </div> -->
   </body>
+  <script src="/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </html>
