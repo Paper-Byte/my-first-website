@@ -9,6 +9,7 @@ body {
     position: relative;
     margin-top: 1%;
     margin-left: 1%;
+    border-radius: 50%;
 }
 
 #banner {
@@ -16,6 +17,7 @@ body {
     width: 100%;
     position: absolute;
     height: 250px;
+    margin-right: 1%;
 }
 div h1 {
     position: absolute;
