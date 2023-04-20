@@ -1,3 +1,30 @@
 body {
-    background: blue;
+    background: url(./images/gif/background.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#mainpic {
+    max-width: 15%;
+    position: relative;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#banner {
+    background: rgb(245, 166, 97, 0.5);
+    width: 100%;
+    position: absolute;
+    height: 250px;
+}
+div h1 {
+    position: absolute;
+    left: 18%;
+    top: 10px;
+}
+
+#banner ul {
+    position: absolute;
+    left: 16%;
+    top: 60px;
 }
