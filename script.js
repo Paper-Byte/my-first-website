@@ -1,3 +1,8 @@
-const h2 = document.createElement('h2');
-h2.textContent = 'This is test header using JS';
-document.querySelector('body').appendChild(h2);
+const img = window.document.getElementsByClassName('mainpic')[0];
+img.addEventListener('mouseenter', () => {
+    img.classList.add('active');
+});
+img.addEventListener('mouseleave', () => {
+    img.classList.remove('active');
+});
+console.log(img);

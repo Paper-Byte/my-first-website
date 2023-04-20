@@ -4,29 +4,35 @@ body {
     background-attachment: fixed;
 }
 
-#mainpic {
-    max-width: 15%;
-    position: relative;
-    margin-top: 1%;
-    margin-left: 1%;
+.mainpic {
+    margin-top: 5px;
+    margin-left: 16px;
+    margin-bottom: 5px;
     border-radius: 50%;
+}
+.active {
+    filter: brightness(0.5);
+    filter: blur(2px);
+}
+
+.slider {
+    display: flex;
 }
 
 #banner {
-    background: rgb(245, 166, 97, 0.5);
-    width: 100%;
-    position: absolute;
+    background: rgb(245, 166, 97, 0.7);
     height: 250px;
-    margin-right: 1%;
+    border-radius: 100px 0px 0px 100px;
+    display:flex;
+    margin-right: -50px;
+   
 }
 div h1 {
-    position: absolute;
     left: 18%;
     top: 10px;
 }
 
 #banner ul {
-    position: absolute;
     left: 16%;
     top: 60px;
 }
