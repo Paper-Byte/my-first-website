@@ -1,12 +1,20 @@
 body {
-    background: url(./images/gif/background.gif);
+    /* background: url(./images/gif/background.gif); */
     background-size: cover;
     background-attachment: fixed;
 }
 
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overscroll-behavior: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 .mainpic {
     margin-top: 5px;
-    margin-left: 16px;
+    margin-left: 13px;
     margin-bottom: 5px;
     border-radius: 50%;
 }
@@ -18,14 +26,17 @@ body {
 .slider {
     display: flex;
 }
+.aboutMe {
+    flex-direction: column;
+}
 
 #banner {
     background: rgb(245, 166, 97, 0.7);
     height: 250px;
     border-radius: 100px 0px 0px 100px;
-    display:flex;
-    margin-right: -50px;
-   
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px
 }
 div h1 {
     left: 18%;
@@ -33,6 +44,9 @@ div h1 {
 }
 
 #banner ul {
-    left: 16%;
+    left: 500px;
     top: 60px;
+   
 }
+
+
