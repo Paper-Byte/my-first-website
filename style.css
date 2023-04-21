@@ -82,5 +82,29 @@ div h1 {
     height: 250px;
     margin-top: 20px;
     margin-left: 10px;
-    display:flex;
+    display: flex;
+}
+
+.footer-links {
+    background: rgba(245, 166, 97, 0.7);
+    border-radius: 100px 100px 100px 100px;
+    height: 140px;
+    margin-top: 40px;
+    margin-left: 320px;
+    margin-right: 320px;
+    display: flex;
+}
+
+.button-container {
+    display: flex;
+    margin-left: 490px;
+    margin-top: 10px;
+}
+
+.linkedLogo {
+    max-height: 130px;
+    border-radius: 50%;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 5px
 }
