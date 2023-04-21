@@ -25,13 +25,13 @@ body {
 
 .slider {
     margin-top: 10px;
-   text-align: center;
+    text-align: center;
 }
 
 .slider img {
-border-radius: 50%;
- max-height: 200px;
- max-width: auto;
+    border-radius: 50%;
+    max-height: 200px;
+    max-width: auto;
 }
 .aboutMe {
     flex-direction: column;
@@ -42,6 +42,7 @@ border-radius: 50%;
 .slider-container {
     max-width: 300px;
     margin-right: 100px;
+    margin-left: 10px;
 }
 
 .about-me-container {
@@ -58,7 +59,6 @@ border-radius: 50%;
     margin-top: 15px;
     margin-left: 10px;
     flex-direction: row;
-    justify-content: space-between;
     /* box-shadow: 0 3px 5px 10px #f77d1f; */
     /* filter: drop-shadow(0 5px 10px 10px #f77d1f35); */
 }
@@ -105,6 +105,37 @@ div h1 {
     max-height: 130px;
     border-radius: 50%;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-top: 5px
+}
+
+.mainBodyFrontLang {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.mainBodyBackLang {
+    margin-right: 50px;
+}
+
+.mainBodyBtn {
+}
+
+.mainBodyBio {
+    height: 230px;
+    margin-top: 10px;
+    margin-left: 50px;
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+.spacerFooter {
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.prevProjectsHead {
+    height: 60px;
+    margin-top: 80px;
+    margin-left: 250px;
+    max-width: 180px;
+    font-style: italic;
 }

@@ -5,8 +5,6 @@ const randomFactP = document.getElementsByClassName('randomFact')[0];
 const buttonFact = document.getElementsByTagName('button')[0];
 const btnColorChange = document.getElementById('random-background');
 const btnResetBackground = document.getElementsByTagName('button')[2];
-const linkBtns = document.getElementsByClassName('linkedLogo');
-
 
 buttonFact.addEventListener('click', () => {
     randomFactP.textContent = facts[Math.floor(Math.random()*facts.length)];
@@ -33,7 +31,3 @@ btnResetBackground.addEventListener('click', () => {
     document.documentElement.style.backgroundSize = 'cover';
     document.documentElement.style.backgroundAttachment = 'fixed';
 });
-
-linkBtns.addEventListener('click', () => {
-    window.open(url, '_blank').focus();
-})
