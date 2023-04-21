@@ -1,21 +1,20 @@
 html {
-   /* background: url(./images/gif/background.gif); */
+    background-image: url(./images/gif/background.gif);
     background-size: cover;
     background-attachment: fixed;
 }
-
-html, body {
+body {
     height: 100vh !important;
     width: 100vw !important;
     overscroll-behavior: none;
     padding: 0px;
     margin: 0px;
-  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .mainpic {
     margin-top: 5px;
-    margin-left: 13px;
+    margin-left: 10px;
     margin-bottom: 5px;
     border-radius: 50%;
 }
@@ -41,17 +40,12 @@ border-radius: 50%;
 
 
 .slider-container {
-    background:yellow;
     max-width: 300px;
-    /* margin-left: 300px; */
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
 .about-me-container {
-    display: flex;
-    background:red;
-    
-
+    display: flex;    
 }
 
 
@@ -73,11 +67,13 @@ border-radius: 50%;
 div h1 {
     left: 18%;
     top: 10px;
+    text-emphasis-style: bold;
 }
 
 #banner ul {
     left: 500px;
     top: 60px;
+    font-size: larger;
 }
 
 .mainBody {
@@ -85,5 +81,6 @@ div h1 {
     border-radius: 100px 0px 0px 100px;
     height: 250px;
     margin-top: 20px;
+    margin-left: 10px;
     display:flex;
 }
